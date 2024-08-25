@@ -1,0 +1,894 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-color: transparent;
+    /* background: linear-gradient(to top, #ffffff, #b7edff); */
+    padding: 2px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containers {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    bottom: 25px;
+    /* position: relative; */
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Container Styles */
+
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    position: relative;
+    height: 70px;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #787878;
+}
+nav ul li a:hover{
+    color: #000000;
+}
+
+.menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+
+.login-btn {
+    margin-left: auto;
+    display: flex;
+}
+
+.log {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    /* margin-right: 64px; */
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.3s ease;
+}
+
+.log:hover {
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+    color: rgb(47, 0, 255);
+}
+
+.sign {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid blue; /* 1px solid blue border */
+    border-radius: 50px; /* Round border */
+    background-color: blue;
+    color: rgb(255, 255, 255); /* Text color matching the border */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sign:hover {
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+    background-color: blue; /* Blue background on hover */
+    color: white; /* White text on hover for better contrast */
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/*                                           home section                                       */
+/*                                           home section                                       */
+/*                                           home section                                       */
+/*                                           home section                                       */
+/*                                           home section                                       */
+/*                                           home section                                       */
+.hero {
+    background: linear-gradient(to top, #e1e4e6, #93dff6);
+    padding: 15px 0;
+}
+.scroll-animation {
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+.scroll-animation.fade-out {
+    opacity: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+    margin-top: -60px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+}
+.hero-content p {
+    bottom: 110px;
+    position: relative;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right; /* Align the image to the right */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 20px;
+}
+
+span {
+    background: linear-gradient(to right, #1e90ff, #00bfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.cta-buttons {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+}
+
+.cta-button {
+    margin-right: 10px; /* Add space between the buttons */
+    padding: 17px;
+    border: none;
+    font-size: 14px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.cta-button:hover {
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+}
+
+.cta-button.download {
+    background-color: transparent; 
+    color: blue;
+    border: 1px solid blue;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+
+.cta-button.download:hover {
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+}
+
+.circle-img {
+    position: relative;
+}
+
+.circle-img img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 430px;
+    top: 50px;
+}x
+
+
+.star-img {
+    
+    display: inline-block; /* Ensure the element respects margin */
+}
+
+.star-img img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 160px;
+    left: 580px;
+}
+
+
+/*                                                    table section css                           */
+/*                                                    table section css                           */
+/*                                                    table section css                           */
+/*                                                    table section css                           */
+/*                                                    table section css                           */
+/*                                                    table section css                           */
+.table-container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 8px;
+    border-left: 1px solid rgb(139, 139, 139);
+  }
+  
+  .table-header {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 13px;
+}
+  
+  .table-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  thead {
+    position: relative;
+    right: -27px;
+}
+
+  .table-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .more {
+    margin-left: auto;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .chart {
+    width: 86%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 1px;
+}
+  /* /* .chart img {
+    width: 10px;
+  } */
+   */
+.price {
+    font-weight: bold;
+}
+/*                                            trade section css                                             */
+/*                                            trade section css                                             */
+/*                                            trade section css                                             */
+/*                                            trade section css                                             */
+/*                                            trade section css                                             */
+/*                                            trade section css                                             */
+.trade{
+    padding: 10px 0;
+}
+
+.trade-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trade-content {
+    flex: 1;
+    text-align: left;
+    margin-top: 130px;
+}
+
+/* input css */
+.input-box {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #84a4f6;
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+}
+.usd-btn {
+    display: flex;
+    border: 1px solid #84a4f6;
+    padding: 10px 5px 10px 10px;
+    border-radius: 15px;
+    width: 110px;
+    position: relative;
+    right: -35px;
+    align-items: center;
+    background: transparent;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.input-box input {
+    border: none;
+    text-align: right;
+}
+.input-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 22px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(99, 99, 247);
+    color: white;
+    position: relative;
+    left: 1px;
+    width: 415px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+
+.input-btn:hover{
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+}
+
+.trade-img {
+    display: flex;
+    position: relative;
+    width: 51%;
+    top: 60px;
+    right: 25px;
+    height: auto;
+}
+.trade-img img{
+    width: 100%;
+}
+
+/*                                                  company css                                        */
+/*                                                  company css                                        */
+/*                                                  company css                                        */
+/*                                                  company css                                        */
+/*                                                  company css                                        */
+/*                                                  company css                                        */
+.company{
+    padding: 10px 0;
+    display: flex;
+}
+
+.company-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: #a5fff9;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 1px solid;
+    
+}
+
+
+.company-content{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+
+.company-img{
+    display: flex;
+    flex-direction: row;
+}
+
+/*                                                Atm section css                                      */
+/*                                                Atm section css                                      */
+/*                                                Atm section css                                      */
+/*                                                Atm section css                                      */
+/*                                                Atm section css                                      */
+/*                                                Atm section css                                      */
+.atm{
+    display: flex;
+}
+
+.atm-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.atm-content {
+    flex: 1;
+    position: relative;
+    left: 700px;
+    font-size: 25px;
+}
+
+.atm-content p{
+    font-size: 20px;
+}
+.check-mark {
+    display: flex;
+    align-items: center; 
+    font-size: 16px; 
+}
+
+.check-mark::before {
+    content: '\2713'; /* Unicode character for the checkmark */
+    font-size: 24px; 
+    color: rgb(0, 13, 255); 
+    margin-right: 3px; 
+    width: 20px;
+}
+
+.atm-btn{
+    color: #007bff;
+    background: transparent;
+    border: 1px solid blue;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 55%;
+    cursor: pointer;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+.atm-btn:hover{
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+}
+
+.atm-img {
+    display: flex;
+    position: relative;
+    width: 50%;
+    top: 47px;
+    right: 640px;
+    height: auto;
+}
+.atm-img img {
+    width: 105%;
+}
+
+/*                                         tool section css                                                 */
+/*                                         tool section css                                                 */
+/*                                         tool section css                                                 */
+/*                                         tool section css                                                 */
+/*                                         tool section css                                                 */
+/*                                         tool section css                                                 */
+
+.tool-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    position: relative;
+    margin-bottom: 79px;
+    left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tool-content{
+    flex: 1;
+    text-align: left;
+}
+.tool-img{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: -46px;
+
+}
+.tool-img img{
+    width: 70%;
+}
+
+.tool-btn{
+    border: none;
+    background: transparent;
+    color: blue;
+    padding: 20px;
+    border-radius: 30px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+.tool-btn:hover{
+    box-shadow: 0 5px 5px rgb(117, 117, 255);
+  
+}
+/*                                      Lock section css                                             */
+/*                                      Lock section css                                             */
+/*                                      Lock section css                                             */
+/*                                      Lock section css                                             */
+/*                                      Lock section css                                             */
+/*                                      Lock section css                                             */
+.lock{
+    display: flex;
+}
+.lock-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.lock-content{  
+    flex: 1;
+    position: relative;
+    left: 700px;
+}
+
+.lock-img{
+    display: flex;
+    position: relative;
+    right: 570px;
+}
+/*                                         Get section css                                          */
+/*                                         Get section css                                          */
+/*                                         Get section css                                          */
+/*                                         Get section css                                          */
+/*                                         Get section css                                          */
+/*                                         Get section css                                          */
+.get{
+    display: flex;
+}
+.get-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    
+}
+
+.get-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    text-align: center;
+}
+
+.get-content h1 {
+    margin: 0; /* Remove any default margin */
+}
+.get-img{
+    display: flex;
+    gap: 160px;
+    margin-left: 120px;
+}
+
+.get-con-2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 40px;
+}
+.get-signup{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/*                                      faq section css                                                 */
+/*                                      faq section css                                                 */
+/*                                      faq section css                                                 */
+/*                                      faq section css                                                 */
+/*                                      faq section css                                                 */
+/*                                      faq section css                                                 */
+
+.faq{
+    display: flex;
+}
+.faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-content {
+    order: 2; 
+    text-align: left; 
+    font-size: large;
+}
+.faq-content h1{
+    font-size: 40px;
+}
+
+.faq-img {
+    order: 1; 
+}
+
+.faq-content ul {
+    /* list-style-type: none;  */
+    padding: 0; /* Remove default padding */
+}
+
+.faq-content li {
+    padding: 10px 0; /* Add space above and below each list item */
+    border-bottom: 2px solid #ccc; /* Add underline below each list item */
+}
+
+/* .faq-content li:last-child {
+    border-bottom: none; 
+} */
+
+/*                                       back to top btn                                             */
+/*                                       back to top btn                                             */
+/*                                       back to top btn                                             */
+.to-top-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #d4d0d0;
+}
+.to-top-btn:hover{
+    background-color: #ece8e8;
+    box-shadow: 0 5px 5px rgb(196, 196, 255);
+}
+
+/*                                               Footer css                                                 */
+/*                                               Footer css                                                 */
+/*                                               Footer css                                                 */
+/*                                               Footer css                                                 */
+/*                                               Footer css                                                 */
+/*                                               Footer css                                                 */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    gap: 40px; /* Space between logo and lists */
+    /* flex-wrap: wrap;  */
+}
+
+.ul-li {
+    display: flex;
+    gap: 40px; 
+    border-right: 1px solid black;
+}
+
+.logo img {
+    max-width: 100px; 
+}
+
+
+
+.ul-li ul {
+    list-style-type: none; 
+    padding: 30px;
+}
+
+.ul-li li {
+    padding: 15px 0; 
+    cursor: pointer;
+    color: #6b6b6b;
+}
+.ul-li li:hover{
+    color: #000000;
+}
+/*   this is ul-li2 */
+.ul-li2{
+    display: flex;
+    gap: 40px; 
+}
+
+.ul-li2 ul{
+    list-style-type: none;
+    padding: 30px;
+}
+
+.ul-li2 li{
+    padding: 15px 0; /* Space between list items */
+    cursor: pointer;
+    color: #6b6b6b;
+}
+
+.ul-li2 li:hover{
+    color: #000000;
+}
+/* email css */
+
+
+
+.footer-email {
+   display: block;
+}
+
+
+.footer-email input {
+    margin-top: 10px; 
+    padding: 10px;
+    border: 2px solid #00a4ea;
+    border-radius: 4px;
+}
+
+.footer-email .send {
+
+    padding: 12px 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ul-li {
+        flex-direction: column;
+        gap: 20px;
+    }
+} */
+
+
+
+/*                                          home slide animation                         */
+/*                                          home slide animation                         */
+/*                                          home slide animation                         */
+/*                                          home slide animation                         */
+/*                                          home slide animation                         */
+/*                                          home slide animation                         */
+
+.slide-element {            
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+#home #home-contant .slide-element {
+    animation: sliderReveal 1s ease forwards;
+}
+
+@keyframes sliderReveal {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes sliderRevealRight {
+    0% {
+        transform: translateX(60px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#home #home-contant .slide-element:nth-child(1) {
+    animation-delay: 0ms;
+}
+
+#home #home-contant .slide-element:nth-child(2) {
+    animation-delay: 200ms;
+}
+
+#home #home-contant .slide-element:nth-child(3) {
+    animation-delay: 500ms;
+    animation: sliderReveal 1s ease forwards;
+}
+
+#home #home-contant .slide-element:nth-child(4) {
+    animation-delay: 900ms;
+    animation: sliderRevealRight 1s ease forwards;
+}

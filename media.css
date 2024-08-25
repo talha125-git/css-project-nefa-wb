@@ -1,0 +1,756 @@
+@media (max-width: 768px) and (min-width: 481px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /*                 nav     */
+    nav ul {
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        margin-top: 900px;
+        right: 203px;
+        gap: 62px;
+    }
+
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    /*                 nav     */
+
+
+    .container {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .hero {
+        width: 159%;
+        height: 171vh;
+    }
+
+    .hero-content {
+        margin-top: 90px;
+        margin-right: -112px;
+        text-align: center;
+    }
+
+    .hero-content p {
+        font-size: 25px;
+    }
+
+    .cta-buttons {
+        margin-left: 225px;
+    }
+
+    .login-btn {
+        margin-right: 157px;
+    }
+
+    .log {
+        padding: 22px 71px;
+        font-size: 25px;
+    }
+
+    .sign {
+        padding: 33px 76px;
+        font-size: 23px;
+    }
+
+    .table-container {
+        flex-direction: column;
+        margin-left: 74px;
+    }
+
+    .column {
+        padding: 14px;
+        margin-right: -393px;
+        border-bottom: 2px solid black;
+    }
+
+    .table-header {
+        font-size: 28px;
+        margin-bottom: 13px;
+    }
+
+    .table-title {
+        font-size: 25px;
+    }
+
+    .table th,
+    .table td {
+        font-size: 32px;
+    }
+
+    .trade {
+        width: 104%;
+        height: 68vh;
+    }
+
+    .trade-container {
+        padding: 6px;
+        display: flex;
+        position: relative;
+        left: 70px;
+    }
+
+    .trade-img {
+        right: -60px;
+    }
+
+    .trade-img img {
+        width: 219%;
+    }
+
+    .trade-content {
+        text-align: center;
+        margin-top: 65px;
+        font-size: 21px;
+    }
+
+    .input-box {
+        padding: 8px;
+        width: 410px;
+    }
+
+    .input-box input {
+        font-size: 25px;
+    }
+
+    .input-container p {
+        font-size: 24px;
+    }
+
+    .usd-btn {
+        width: 129px;
+        font-size: 30px;
+    }
+
+    .company-container {
+        position: relative;
+        right: -13px;
+    }
+
+    .company-content {
+        font-size: 25px;
+    }
+
+    .atm-container {
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .atm-content {
+        flex: 1;
+        position: relative;
+        left: 135px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .atm-content p {
+        font-size: 35px;
+    }
+
+    .atm-img {
+        width: 80%;
+        top: 65px;
+        right: 0px;
+    }
+
+    .atm-btn {
+        padding: 30px;
+        font-size: 32px;
+        width: 70%;
+    }
+
+    .tool-container {
+        width: 170%;
+        flex-direction: column;
+    }
+
+    .tool-content {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .tool-btn {
+        padding: 24px;
+        font-size: 22px;
+    }
+
+    .tool-img {
+        left: 160px;
+        top: 4px;
+    }
+
+    .lock-container {
+        flex-direction: column;
+    }
+
+    .lock-content {
+        left: 290px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .check-mark {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .lock-img {
+        right: -250px;
+    }
+
+    .get-content h1 {
+        font-size: 34px;
+    }
+
+    .get-signup {
+        font-size: 23px;
+        margin-left: 63px;
+    }
+
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .faq-img {
+        margin-left: 235px;
+    }
+
+    .faq-content {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 280px;
+    }
+
+    .faq-content ul {
+        list-style-type: none;
+    }
+
+    .to-top-btn {
+        width: 190px;
+        margin-left: 515px;
+        font-size: 23px;
+    }
+
+    .footer {
+        padding: 20px 0;
+        width: 159%;
+    }
+
+    .ul-li {
+        flex-direction: column;
+    }
+
+    .ul-li ul {
+        font-size: 24px;
+    }
+
+    .logo img {
+        margin-right: 42px;
+    }
+
+    .ul-li2 ul {
+        font-size: 26px;
+    }
+
+    .footer-email {
+        font-size: 20px;
+    }
+
+    .footer-email input {
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .footer-email .send {
+        padding: 25px 23px;
+        margin-top: 14px;
+        font-size: 20px;
+    }
+
+
+}
+
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+/*                 media range   (max-width: 650px) and (min-width: 481px)                     */
+@media (max-width: 650px) and (min-width: 481px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .hero {
+        width: 207%;
+        height: 171vh;
+    }
+
+    .hero-content {
+        margin-top: 90px;
+        margin-right: -112px;
+        text-align: center;
+    }
+
+    
+
+    .table-container {
+        flex-direction: column;
+        margin-left: 74px;
+    }
+
+    .column {
+        padding: 14px;
+        margin-right: -686px;
+        border-bottom: 2px solid black;
+    }
+
+    
+
+    .trade {
+        width: 159%;
+        height: 202vh;
+    }
+    .trade-container {
+        flex-direction: column;
+        position: relative;
+        left: 156px;
+    }
+    .trade-img {
+        right: 76px;
+    }
+    .trade-img img {
+        width: 219%;
+    }
+    .trade-content {
+        font-size: 41px;
+    }
+    .input-box {
+        padding: 32px;
+        width: 500px;
+    }
+    .input-box input {
+        font-size: 30px;
+    }
+    .input-container p {
+        font-size: 40px;
+    }
+    .input-btn {
+        padding: 40px;
+        width: 731px;
+        font-size: 45px;
+    }
+
+    .company {
+        padding: 10px 0;
+        width: 1418px;
+        display: flex;
+    }
+
+    .company-container {
+        right: 0px;
+    }
+
+    .company-content {
+        font-size: 50px;
+    }
+
+    .company-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /* Adjust the gap between images as needed */
+    }
+
+    .company-img img {
+        width: 100%;
+        height: auto;
+    }
+    .atm-container {
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .atm-content {
+        flex: 1;
+        position: relative;
+        left: 286px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+
+    .tool-container {
+        width: 226%;
+        left: 145px;
+        position: relative;
+    }
+
+    
+    .footer {
+        padding: 20px 0;
+        width: 217%;
+    }
+
+
+}
+
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+/*                                           media for mobile   480px                                    */
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav ul li a {
+        font-size: 33px;
+    }
+
+    nav ul {
+        gap: 30px;
+        margin-left: -136px;
+        margin-top: 219px;
+        margin-right: -115px;
+    }
+
+    .login-btn {
+        position: relative;
+        right: 360px;
+    }
+
+    .log {
+        padding: 22px 71px;
+        font-size: 30px;
+    }
+
+    .sign {
+        padding: 33px 76px;
+        font-size: 30px;
+    }
+
+    .container {
+        width: 100%;
+        /* Make the container full width */
+        max-width: none;
+        /* Remove the max-width constraint */
+        margin: 0 auto;
+        /* Center the container horizontally */
+        padding: 0 20px;
+        /* Maintain horizontal padding */
+        box-sizing: border-box;
+        /* Include padding and border in the element's total width and height */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero {
+        width: 298%;
+        height: 205vh;
+    }
+
+    header {
+        font-size: 23px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content {
+
+        text-align: left;
+        margin-top: 61px;
+    }
+
+    .hero-content p {
+        font-size: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 100px;
+    }
+
+    .cta-button {
+        padding: 30px;
+        font-size: 40px;
+    }
+
+    .table-container {
+        flex-direction: column;
+        margin-left: 74px;
+    }
+
+    .column {
+        padding: 17px;
+        margin-right: -717px;
+        border-bottom: 2px solid black;
+    }
+
+    .table-header {
+        font-size: 52px;
+    }
+
+    .table-title {
+        font-size: 52px;
+    }
+
+    .table th,
+    .table td {
+        font-size: 45px;
+    }
+
+    .trade {
+        width: 159%;
+        height: 202vh;
+    }
+
+    .trade-container {
+        flex-direction: column;
+        position: relative;
+        left: 285px;
+    }
+
+    .trade-img {
+        right: -65px;
+    }
+
+    .trade-img img {
+        width: 219%;
+    }
+
+    .trade-content {
+        font-size: 41px;
+    }
+
+    .input-box {
+        padding: 32px;
+        width: 500px;
+    }
+
+    .input-box input {
+        font-size: 30px;
+    }
+
+    .input-container p {
+        font-size: 40px;
+    }
+
+    .input-btn {
+        padding: 40px;
+        width: 731px;
+        font-size: 45px;
+    }
+
+    .company {
+        padding: 10px 0;
+        width: 1418px;
+        display: flex;
+    }
+
+    .company-container {
+        right: 0px;
+    }
+
+    .company-content {
+        font-size: 50px;
+    }
+
+    .company-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /* Adjust the gap between images as needed */
+    }
+
+    .company-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .atm {
+        width: 1290px;
+    }
+
+    .atm-container {
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .atm-content {
+        flex: 1;
+        position: relative;
+        left: -77px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .atm-content p {
+        font-size: 46px;
+    }
+
+    .atm-img {
+        width: 80%;
+        top: 65px;
+        right: 0px;
+    }
+
+    .atm-btn {
+        padding: 30px;
+        font-size: 32px;
+        width: 70%;
+    }
+
+    .tool-container {
+        width: 324%;
+        margin-left: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tool-content {
+        font-size: 50px;
+    }
+
+    .tool-btn {
+        padding: 24px;
+        font-size: 22px;
+    }
+
+    .tool-img {
+        left: 160px;
+        top: 4px;
+    }
+
+    .lock-container {
+        flex-direction: column;
+    }
+
+    .lock-content {
+        left: 290px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .check-mark {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .lock-img {
+        right: -250px;
+    }
+
+    .get-content h1 {
+        font-size: 55px;
+    }
+
+    .get-content p {
+        font-size: 55px;
+    }
+
+    .get-img {
+        display: flex;
+        gap: 165px;
+        margin-left: 165px;
+    }
+
+    .get-signup {
+        font-size: 31px;
+        margin-left: 66px;
+    }
+
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .faq-img {
+        margin-left: 235px;
+    }
+
+    .faq-content {
+        text-align: center;
+        font-size: 46px;
+        margin-left: 280px;
+    }
+
+    .faq-content ul {
+        list-style-type: none;
+    }
+
+    .to-top-btn {
+        width: 190px;
+        margin-left: 515px;
+        font-size: 23px;
+    }
+
+    .footer {
+        width: 298%;
+    }
+
+    .ul-li {
+        flex-direction: column;
+    }
+
+    .ul-li ul {
+        font-size: 35px;
+    }
+
+    .ul-li li {
+        padding: 10px 0;
+    }
+
+    .logo img {
+        margin-right: 42px;
+    }
+
+    .ul-li2 ul {
+        font-size: 39px;
+    }
+
+    .footer-email {
+        font-size: 28px;
+    }
+
+    .footer-email input {
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .footer-email .send {
+        padding: 25px 23px;
+        margin-top: 14px;
+        font-size: 20px;
+    }
+
+}
